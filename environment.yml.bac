@@ -1,0 +1,9 @@
+name: thething
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - face-recognition
+  - pickleshare
+  - Pillow
+  - streamlit
