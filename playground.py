@@ -278,6 +278,8 @@ st.set_page_config(
     menu_items=None
     )
 
+st.title("Crypto Santa")
+
 
 # In[220]:
 
