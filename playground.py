@@ -192,7 +192,7 @@ st.markdown("**...but also, treat this as a theoretical exercise in secure multi
 # In[ ]:
 
 
-tab_keys = ["[1]: What's your Keys", "[2]: Assign all Santas", "[3]: Who you gifting", "[0]: About"]
+tab_keys = ["🔔 What are your keys", "🕯️ Associate all Santas", "🎁 Who you gifting", "🍷 About"]
 tabs = st.tabs(tab_keys)   
 
 
@@ -263,12 +263,12 @@ with tabs[3]:
              
     The first step is to generate your keys. You can do this by entering your name in the box
     and clicking submit. This will generate your public and private keys. You should share your
-    public key with the person who is assigning the secret santas. You should keep your private key
+    public key with the person who is assigning the secret santas or on a common public. You should keep your private key
     secret.
     
     The second step is to assign all the secret santas. The person who is assigning the secret santas should
     collect all the public keys and enter them into the box. Clicking submit will generate a list of encrypted
-    santas. Each santa should be sent to the person who it is assigned to.
+    santas. This is sent on a common, public channel.
     
     The third step is to find out who you are the santa for. You should enter your private key and all the
     encrypted santas you have received. Clicking submit will decrypt the santas and tell you who you are the
@@ -279,5 +279,6 @@ with tabs[3]:
 # In[ ]:
 
 
-st.markdown("yours in complication, [🐙](https://knhash.in)")
+st.markdown("---")
+st.caption("yours in complication, [knhash](https://knhash.in)")
 
