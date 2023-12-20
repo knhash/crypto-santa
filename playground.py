@@ -280,5 +280,5 @@ with tabs[3]:
 
 
 st.markdown("---")
-st.caption("yours in complication, [knhash](https://knhash.in)")
+st.caption("complicated lovingly by [knhash](https://knhash.in)")
 
