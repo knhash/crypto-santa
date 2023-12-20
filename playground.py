@@ -204,7 +204,7 @@ with tabs[0]:
     
     with st.form("aaa"):
         name = st.text_input('Name')
-        name = name.upper()
+        name = name.upper().replace(" ", "_")
         submitted = st.form_submit_button(label='Submit')
         if submitted:
             private_key, public_key = get_keys(name)
