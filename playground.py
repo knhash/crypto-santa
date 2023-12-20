@@ -192,7 +192,7 @@ st.markdown("**...but also, treat this as a theoretical exercise in secure multi
 # In[ ]:
 
 
-tab_keys = ["🔔 What are your keys", "🕯️ Associate all Santas", "🎁 Who you gifting", "🍷 About"]
+tab_keys = ["🔔 Generate your keys", "🕯️ Associate all Santas", "🎁 Find your Sant-ee", "🍷 About"]
 tabs = st.tabs(tab_keys)   
 
 
